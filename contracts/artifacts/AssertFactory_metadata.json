@@ -1,0 +1,147 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addr_name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "symbol",
+						"type": "string"
+					}
+				],
+				"name": "newAssert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "receiver_addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/6_AssertFactory.sol": "AssertFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5_Assert.sol": {
+			"keccak256": "0x50dd02c048d0d81d210866d8fde1201b7f67e4ed078c4bb76e3eccd2d689b498",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c143616786176d9179aefec4f6a8314e4c1f7630be260bbc82e12bf0e1218618",
+				"dweb:/ipfs/QmPqGaCwAbtANxP3h9He71g2c1MuJaKNA9vxEczMsopAD2"
+			]
+		},
+		"contracts/6_AssertFactory.sol": {
+			"keccak256": "0x56f8d714b66e4c61b388fd949013072531ee548bbfd6eb0ae576183841b12997",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6a45e106cc86e4300b7eb83bcdc52184bd9708ed616afc90afbf291ae2b380a3",
+				"dweb:/ipfs/QmbEDUhL461zuFVS2swwVJugGCyxqRXeyRi1YXnXm85R3L"
+			]
+		}
+	},
+	"version": 1
+}
